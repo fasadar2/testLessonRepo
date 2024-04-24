@@ -5,7 +5,7 @@ response = requests.get(url_book)
 print(response.json())
 url_auth = 'https://22dd1f97-419f-4670-90fe-b2048616ab91.mock.pstmn.io/auth'
 data = {
-    "login":"iddqd",
+    "login":"iddfa",
     "password":"qwerty"
 }
 response = requests.post(url_auth,json=data)
